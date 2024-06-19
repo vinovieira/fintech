@@ -1,0 +1,94 @@
+.card {
+    background: linear-gradient(180deg, #091F3F 0.21%, #527895 159.27%);
+    margin: 16px;
+    padding: 13px;
+    border-radius: 10px;
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-first-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+.card-filter {
+    font-size: 0.70rem;
+    font-weight: 300;
+    background: rgba(82, 120, 149, 0.50);
+    backdrop-filter: blur(15.850000381469727px);
+    border-radius: 30px;
+    padding: 8px 12px;
+    text-transform: capitalize;
+}
+
+.card-second-line {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.card-principal {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.valor-variacao {
+    font-size: 0.70rem;
+    background: rgba(255, 119, 119, 0.58);
+    backdrop-filter: blur(64.55000305175781px);
+    padding: 5px 8px;
+    border-radius: 30px;
+}
+
+.card-third-line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-botao {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+}
+
+.adicionar {
+    background: rgba(255, 119, 119, 0.58);
+    backdrop-filter: blur(64.55000305175781px);
+    padding: .8rem 1.2rem;
+    border-radius: 30px;
+}
+
+.mais {
+    background: rgba(82, 120, 149, 0.50);
+    backdrop-filter: blur(15.850000381469727px);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.mes1 {
+    text-transform: uppercase;
+    font-size: .70rem;
+    opacity: .5;
+}
+
+.mes2 {
+    text-transform: uppercase;
+    font-size: .90rem;
+    font-weight: 600;
+}
+
+.mes3 {
+    text-transform: uppercase;
+    font-size: .70rem;
+    opacity: .5;
+}
