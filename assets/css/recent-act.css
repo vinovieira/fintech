@@ -1,0 +1,41 @@
+.recent-act {
+    background: var(--background-header);
+}
+
+.card-line {
+    display: flex;
+    width: 100%;
+    gap: 15px
+}
+
+.act-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--background-color);
+    text-align: center;
+    width: 42px;
+    height: 35px;
+}
+
+.card-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-desc-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+    font-weight: 600;
+}
+
+.second {
+    font-size: 0.8rem;
+}

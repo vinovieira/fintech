@@ -25,6 +25,20 @@
     cursor: pointer;
 }
 
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-left: auto;
+    /* background-color: var(--background-color);
+    border-radius: 50%;
+    font-size: 23px; */
+}
+
+i {
+    font-size: 23px;
+}
+
 .menu-bars {
     padding: 5px;
 }

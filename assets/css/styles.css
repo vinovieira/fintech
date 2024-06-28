@@ -1,11 +1,18 @@
 @import url(./reset.css);
 @import url(./header.css);
-@import url(./card-despesas.css);
+@import url(./cards.css);
+@import url(./recent-act.css);
 
 :root {
     --background-color: #eeeeee;
     --background-header: #ffffff;
-    --text-color: #ffffff;
+    --text-color: #000;
+    --background-card: #ffffff;
+    --background-red: rgba(255, 119, 119, 0.58);
+    --backdrop-filter1: blur(15.85px);
+    --background-green: rgba(34, 171, 0, 0.50);
+    /* --card-shadow: 2px 2px 5px .3px rgba(0, 0, 0, 0.25); */
+    --background-yellow: rgba(251, 255, 58, 0.50);
 }
 
 body {
@@ -13,4 +20,41 @@ body {
     height: 100vh;
     background-color: var(--background-color);
     font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+    color: var(--text-color);
+}
+
+@media (min-width: 992px) {
+    body {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: 82px 1fr 1fr;
+    }
+
+    .sb-container {
+        /* display: sticky;
+        top: 0;
+        left: 0; */
+        grid-row: 1 / 4;
+        grid-column: 1 / 2;
+    }
+
+    .header {
+        grid-column: 2/3;
+    }
+
+    main {
+        grid-column: 2/3;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    /* .investimento, .receita, .despesas, .recent-act {
+        max-width: 400px;
+    } */
 }
